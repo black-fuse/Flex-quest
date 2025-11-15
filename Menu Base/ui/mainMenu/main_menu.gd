@@ -44,3 +44,6 @@ func _on_settings_animations_animation_finished(anim_name):
 
 func _on_youtube_pressed():
 	OS.shell_open("https://nerda.ssen.co.uk/nerda")
+
+func _on_play_pressed():
+	get_tree().change_scene_to_file("res://)
