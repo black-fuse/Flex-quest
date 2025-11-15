@@ -1,4 +1,20 @@
+<<<<<<< HEAD
 [gd_scene format=3 uid="uid://biih7o05lsb5j"]
 
 [node name="Node2D" type="Node2D"]
 position = Vector2(48, 40)
+=======
+[gd_scene load_steps=2 format=3 uid="uid://bfd1tjxeiry8b"]
+
+[ext_resource type="Texture2D" uid="uid://b5irsyc7jor0v" path="res://gun.png" id="1_wtcfe"]
+
+[node name="Node2D" type="Node2D"]
+position = Vector2(48, 40)
+
+[node name="Gun" type="Sprite2D" parent="."]
+position = Vector2(-643.0755, -517.40027)
+rotation = 0.97563905
+scale = Vector2(1, 2.2964842)
+skew = -0.699877
+texture = ExtResource("1_wtcfe")
+>>>>>>> ba157574375c3e4cc37a55a80577c387fb1a2698
