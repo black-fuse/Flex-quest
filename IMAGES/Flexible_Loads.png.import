@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://daqvb4j0l80rj"
-path="res://.godot/imported/blank_hex.png-2dbe7c79f6222bec69c406574bb35617.ctex"
+uid="uid://cpcv5p1kbgr3"
+path="res://.godot/imported/Flexible_Loads.png-c808ea5afab054d870222c0ca56cdbc3.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://IMAGES/blank_hex.png"
-dest_files=["res://.godot/imported/blank_hex.png-2dbe7c79f6222bec69c406574bb35617.ctex"]
+source_file="res://IMAGES/Flexible_Loads.png"
+dest_files=["res://.godot/imported/Flexible_Loads.png-c808ea5afab054d870222c0ca56cdbc3.ctex"]
 
 [params]
 

@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://bhauthl243sey"]
+
+[ext_resource type="Script" uid="uid://nsag7hj8kuo8" path="res://scripts/boardGenerator.gd" id="1_m8grt"]
+[ext_resource type="PackedScene" uid="uid://u8o4qaliwno2" path="res://scenes/HexTile.tscn" id="2_3vl31"]
+
+[node name="BoardGenerator" type="Node2D"]
+script = ExtResource("1_m8grt")
+hex_scene = ExtResource("2_3vl31")
+
+[node name="Label" type="Label" parent="."]
+offset_left = 84.06621
+offset_top = 65.41179
+offset_right = 124.06621
+offset_bottom = 88.41179
+text = "not work"

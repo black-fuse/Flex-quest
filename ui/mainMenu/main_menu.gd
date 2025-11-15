@@ -47,5 +47,5 @@ func _on_youtube_pressed():
 	
 	
 func _on_play_pressed():
-	get_tree().change_scene_to_file("res://main_board.tscn")
+	get_tree().change_scene_to_file("res://scenes/BoardGenerator.tscn")
 	pass

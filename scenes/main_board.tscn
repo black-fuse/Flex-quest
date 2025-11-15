@@ -1,12 +1,10 @@
-[gd_scene load_steps=2 format=3 uid="uid://brhbfylkqvukn"]
+[gd_scene load_steps=3 format=3 uid="uid://brhbfylkqvukn"]
 
 [ext_resource type="Script" uid="uid://nsag7hj8kuo8" path="res://scripts/boardGenerator.gd" id="1_fpjay"]
+[ext_resource type="Texture2D" uid="uid://s4gn3i7fxh3h" path="res://IMAGES/Transformers.png" id="2_fpjay"]
 
 [node name="main board" type="Node2D"]
 script = ExtResource("1_fpjay")
-hex_scene = null
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
-
-[node name="boardGenerator" type="Node2D" parent="."]
-script = ExtResource("1_fpjay")
+texture = ExtResource("2_fpjay")

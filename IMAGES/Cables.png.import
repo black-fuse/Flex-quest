@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c8itvtmkiey5j"
-path="res://.godot/imported/Designer (4).png-f6620396d847b3e4edb95b623f87003a.ctex"
+uid="uid://ga0jtean0jbv"
+path="res://.godot/imported/Cables.png-fae72cb28380fc81323b2e36bb0d948e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://IMAGES/Designer (4).png"
-dest_files=["res://.godot/imported/Designer (4).png-f6620396d847b3e4edb95b623f87003a.ctex"]
+source_file="res://IMAGES/Cables.png"
+dest_files=["res://.godot/imported/Cables.png-fae72cb28380fc81323b2e36bb0d948e.ctex"]
 
 [params]
 

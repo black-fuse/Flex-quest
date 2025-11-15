@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cpcv5p1kbgr3"
-path="res://.godot/imported/Designer (3).png-addf9a1c12769bb645d6b630bc5ae1fc.ctex"
+uid="uid://daqvb4j0l80rj"
+path="res://.godot/imported/unpowered_reigon.png-75a8c9c0aa93a61f89d694b39832b9d7.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://IMAGES/Designer (3).png"
-dest_files=["res://.godot/imported/Designer (3).png-addf9a1c12769bb645d6b630bc5ae1fc.ctex"]
+source_file="res://IMAGES/unpowered_reigon.png"
+dest_files=["res://.godot/imported/unpowered_reigon.png-75a8c9c0aa93a61f89d694b39832b9d7.ctex"]
 
 [params]
 
