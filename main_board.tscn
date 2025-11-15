@@ -3,6 +3,7 @@
 [ext_resource type="Texture2D" uid="uid://daqvb4j0l80rj" path="res://vecteezy_element-shape-icon_9267156.png" id="1_4rgaq"]
 
 [node name="main board" type="Node2D"]
+position = Vector2(-10.17041, -2.6523438)
 
 [node name="VecteezyElementShapeIcon9267156" type="Sprite2D" parent="."]
 position = Vector2(-1455.0002, -2910)
