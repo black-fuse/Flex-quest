@@ -44,3 +44,8 @@ func _on_settings_animations_animation_finished(anim_name):
 
 func _on_youtube_pressed():
 	OS.shell_open("https://www.youtube.com")
+	
+	
+func _on_play_pressed():
+	get_tree().change_scene_to_file("res://main_board.tscn")
+	pass

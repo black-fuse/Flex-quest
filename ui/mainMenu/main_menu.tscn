@@ -773,6 +773,7 @@ layout_mode = 1
 
 [connection signal="pressed" from="menu/exit" to="." method="_on_exit_button_pressed"]
 [connection signal="pressed" from="menu/settings" to="." method="_on_settings_pressed"]
+[connection signal="pressed" from="menu/play" to="." method="_on_play_pressed"]
 [connection signal="pressed" from="menu/youtube" to="." method="_on_youtube_pressed"]
 [connection signal="pressed" from="menu/newgrounds" to="." method="_on_newgrounds_pressed"]
 [connection signal="pressed" from="menu/kofi" to="." method="_on_kofi_pressed"]
