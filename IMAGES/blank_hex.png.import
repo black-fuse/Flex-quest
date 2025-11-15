@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://daqvb4j0l80rj"
-path="res://.godot/imported/vecteezy_element-shape-icon_9267156.png-5787308cca4902c53fc6bf65fd8b9f0f.ctex"
+path="res://.godot/imported/blank_hex.png-2dbe7c79f6222bec69c406574bb35617.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://vecteezy_element-shape-icon_9267156.png"
-dest_files=["res://.godot/imported/vecteezy_element-shape-icon_9267156.png-5787308cca4902c53fc6bf65fd8b9f0f.ctex"]
+source_file="res://IMAGES/blank_hex.png"
+dest_files=["res://.godot/imported/blank_hex.png-2dbe7c79f6222bec69c406574bb35617.ctex"]
 
 [params]
 
