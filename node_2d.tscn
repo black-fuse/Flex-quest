@@ -1,4 +1,4 @@
-[gd_scene load_steps=2 format=3 uid="uid://25kp755016en"]
+[gd_scene load_steps=2 format=3 uid="uid://bfd1tjxeiry8b"]
 
 [ext_resource type="Texture2D" uid="uid://b5irsyc7jor0v" path="res://gun.png" id="1_wtcfe"]
 
@@ -6,7 +6,8 @@
 position = Vector2(48, 40)
 
 [node name="Gun" type="Sprite2D" parent="."]
-position = Vector2(-869, 281)
+position = Vector2(-643.0755, -517.40027)
 rotation = 0.97563905
+scale = Vector2(1, 2.2964842)
 skew = -0.699877
 texture = ExtResource("1_wtcfe")
