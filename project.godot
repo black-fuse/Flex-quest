@@ -10,9 +10,9 @@ config_version=5
 
 [application]
 
-config/name="Flex quest"
-run/main_scene="uid://brhbfylkqvukn"
-config/features=PackedStringArray("4.5", "Forward Plus")
+config/name="Menu Base"
+run/main_scene="res://ui/mainMenu/main_menu.tscn"
+config/features=PackedStringArray("4.5", "GL Compatibility")
 boot_splash/bg_color=Color(0.0705882, 0.0705882, 0.0705882, 1)
 boot_splash/fullsize=false
 boot_splash/use_filter=false
