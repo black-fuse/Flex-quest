@@ -1,100 +1,12 @@
-[gd_scene load_steps=2 format=3 uid="uid://c7cgwvsnt3vdv"]
+[gd_scene load_steps=2 format=3 uid="uid://brhbfylkqvukn"]
 
-[ext_resource type="Texture2D" uid="uid://daqvb4j0l80rj" path="res://vecteezy_element-shape-icon_9267156.png" id="1_4rgaq"]
+[ext_resource type="Script" uid="uid://nsag7hj8kuo8" path="res://scripts/boardGenerator.gd" id="1_fpjay"]
 
 [node name="main board" type="Node2D"]
+script = ExtResource("1_fpjay")
+hex_scene = null
 
-[node name="VecteezyElementShapeIcon9267156" type="Sprite2D" parent="."]
-position = Vector2(-1455.0002, -2910)
-scale = Vector2(0.17613022, 0.17613024)
-texture = ExtResource("1_4rgaq")
+[node name="Sprite2D" type="Sprite2D" parent="."]
 
-[node name="VecteezyElementShapeIcon9267157" type="Sprite2D" parent="."]
-position = Vector2(-299, -2910)
-scale = Vector2(0.17613022, 0.17613024)
-texture = ExtResource("1_4rgaq")
-
-[node name="VecteezyElementShapeIcon9267158" type="Sprite2D" parent="."]
-position = Vector2(863, -2916)
-scale = Vector2(0.17613022, 0.17613024)
-texture = ExtResource("1_4rgaq")
-
-[node name="VecteezyElementShapeIcon9267159" type="Sprite2D" parent="."]
-position = Vector2(1462, -1919.0002)
-scale = Vector2(0.17613022, 0.17613024)
-texture = ExtResource("1_4rgaq")
-
-[node name="VecteezyElementShapeIcon9267160" type="Sprite2D" parent="."]
-position = Vector2(2061, -916.0001)
-scale = Vector2(0.17613022, 0.17613024)
-texture = ExtResource("1_4rgaq")
-
-[node name="VecteezyElementShapeIcon9267161" type="Sprite2D" parent="."]
-position = Vector2(1468, 81)
-scale = Vector2(0.17613022, 0.17613024)
-texture = ExtResource("1_4rgaq")
-
-[node name="VecteezyElementShapeIcon9267162" type="Sprite2D" parent="."]
-position = Vector2(881, 1078)
-scale = Vector2(0.17613022, 0.17613024)
-texture = ExtResource("1_4rgaq")
-
-[node name="VecteezyElementShapeIcon9267163" type="Sprite2D" parent="."]
-position = Vector2(-269, 1084)
-scale = Vector2(0.17613022, 0.17613024)
-texture = ExtResource("1_4rgaq")
-
-[node name="VecteezyElementShapeIcon9267164" type="Sprite2D" parent="."]
-position = Vector2(-1431, 1084.0001)
-scale = Vector2(0.17613022, 0.17613024)
-texture = ExtResource("1_4rgaq")
-
-[node name="VecteezyElementShapeIcon9267165" type="Sprite2D" parent="."]
-position = Vector2(-2018.0001, 81)
-scale = Vector2(0.17613022, 0.17613024)
-texture = ExtResource("1_4rgaq")
-
-[node name="VecteezyElementShapeIcon9267166" type="Sprite2D" parent="."]
-position = Vector2(-2599, -928)
-scale = Vector2(0.17613022, 0.17613024)
-texture = ExtResource("1_4rgaq")
-
-[node name="VecteezyElementShapeIcon9267167" type="Sprite2D" parent="."]
-position = Vector2(-2030, -1925)
-scale = Vector2(0.17613022, 0.17613024)
-texture = ExtResource("1_4rgaq")
-
-[node name="VecteezyElementShapeIcon9267168" type="Sprite2D" parent="."]
-position = Vector2(-874, -1907.0001)
-scale = Vector2(0.17613022, 0.17613024)
-texture = ExtResource("1_4rgaq")
-
-[node name="VecteezyElementShapeIcon9267169" type="Sprite2D" parent="."]
-position = Vector2(288, -1907.0001)
-scale = Vector2(0.17613022, 0.17613024)
-texture = ExtResource("1_4rgaq")
-
-[node name="VecteezyElementShapeIcon9267170" type="Sprite2D" parent="."]
-position = Vector2(893, -916.0001)
-scale = Vector2(0.17613022, 0.17613024)
-texture = ExtResource("1_4rgaq")
-
-[node name="VecteezyElementShapeIcon9267171" type="Sprite2D" parent="."]
-position = Vector2(312, 81)
-scale = Vector2(0.17613022, 0.17613024)
-texture = ExtResource("1_4rgaq")
-
-[node name="VecteezyElementShapeIcon9267172" type="Sprite2D" parent="."]
-position = Vector2(-838, 87.00001)
-scale = Vector2(0.17613022, 0.17613024)
-texture = ExtResource("1_4rgaq")
-
-[node name="VecteezyElementShapeIcon9267173" type="Sprite2D" parent="."]
-position = Vector2(-1450, -928)
-scale = Vector2(0.17613022, 0.17613024)
-texture = ExtResource("1_4rgaq")
-
-[node name="VecteezyElementShapeIcon9267174" type="Sprite2D" parent="."]
-position = Vector2(-276.00012, -904)
-scale = Vector2(0.17613022, 0.17613024)
-texture = ExtResource("1_4rgaq")
+[node name="boardGenerator" type="Node2D" parent="."]
+script = ExtResource("1_fpjay")

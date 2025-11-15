@@ -1,6 +1,6 @@
 extends Node2D
 
-@export var hex_scene: main_board
+@export var hex_scene: PackedScene
 @export var hex_radius:= 64.0
 
 var layout := [3,4,5,4,3]
@@ -35,4 +35,24 @@ func generate_board():
 		var cols = layout[i]
 		
 		var offset = (layout.max())
-		pass
+		
+		for c in range(cols):
+			var hex = hex_scene.instantiate()
+			add_child(hex)
+			
+			var col_index = c + offset
+			
+			var x = col_index * (hex_radius * 1.5)
+			var y = row_y * (hex_radius * sqrt(3)/2)
+			
+			hex.position = Vector2(x, y)
+			
+			if index < resources.size():
+				hex.set("resource_type", resources[index])
+			index += 1
+		
+		row_y += 1
+			
+			
+			
+			
