@@ -14,29 +14,29 @@ func _process(delta: float) -> void:
 extends Node
 
 const DECK := [
-    {"name":"Field Engineer","type":"knight"},
-    {"name":"Transmission Expansion","type":"road_building"},
-    {"name":"Market Control","type":"monopoly"},
-    {"name":"Energy Surplus","type":"year_of_plenty"},
-    {"name":"Grid Reliability Rating","type":"vp"},
+	{"name":"Field Engineer","type":"knight"},
+	{"name":"Transmission Expansion","type":"road_building"},
+	{"name":"Market Control","type":"monopoly"},
+	{"name":"Energy Surplus","type":"year_of_plenty"},
+	{"name":"Grid Reliability Rating","type":"vp"},
 ]
 
 func draw_card(player:Player):
-    # Remove from deck and add to player's dev_cards
-    pass
+	# Remove from deck and add to player's dev_cards
+	pass
 
 func play_field_engineer(player:Player):
-    # Move Blackout
-    pass
+	# Move Blackout
+	pass
 
 func play_transmission_expansion(player:Player):
-    # Place 2 transmission lines for free
-    pass
+	# Place 2 transmission lines for free
+	pass
 
 func play_market_control(player:Player, resource:String):
-    # Take all of one resource from other players
-    pass
+	# Take all of one resource from other players
+	pass
 
 func play_energy_surplus(player:Player):
-    # Take any 2 resources from the bank
-    pass
+	# Take any 2 resources from the bank
+	pass
