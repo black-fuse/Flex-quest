@@ -17,19 +17,19 @@ func _on_exit_button_pressed():
 
 
 func _on_twitter_pressed():
-	OS.shell_open("https://twitter.com/cookiielove_")
+	OS.shell_open("https://twitter.com/")
 
 
 func _on_newgrounds_pressed():
-	OS.shell_open("https://cookiielove.newgrounds.com")
+	OS.shell_open("https://nerda.ssen.co.uk/nerda")
 
 
 func _on_itchio_pressed():
-	OS.shell_open("https://cookiie-love.itch.io")
+	OS.shell_open("https://nerda.ssen.co.uk/nerda")
 
 
 func _on_kofi_pressed():
-	OS.shell_open("https://ko-fi.com/cookiielove_")
+	OS.shell_open("https://github.com/black-fuse/Flex-quest")
 
 
 func _on_settings_pressed():
@@ -43,4 +43,4 @@ func _on_settings_animations_animation_finished(anim_name):
 
 
 func _on_youtube_pressed():
-	OS.shell_open("https://www.youtube.com/channel/UCKT6DNMSxurEH_pCQn2WIew")
+	OS.shell_open("https://www.youtube.com")
